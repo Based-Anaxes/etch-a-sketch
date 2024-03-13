@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+.grid {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border: 22px solid black;
+    max-width: 960px;
+    min-width: 960px;
+    max-height: 900px;
+    min-height: 900px;
+    flex-wrap: wrap;
+    margin: auto; 
+    padding: 0;
+}
