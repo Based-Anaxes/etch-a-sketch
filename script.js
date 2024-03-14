@@ -3,8 +3,8 @@ const button = document.querySelector('button');
 
 function getUserInput() {
     let userInput = Number(prompt
-        ("Please enter the desired number of squares per side of the grid "
-        + "Max = 100"));
+        ("Please enter the desired number of squares per side of the grid" 
+        + "\n" + "\nMax = 100"));
     if (userInput > 100) {
         userInput = 100;
     }
