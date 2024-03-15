@@ -24,7 +24,7 @@ function generateGrid(userInput, boxSize) {
             box.addEventListener("mouseover", () => {
                 let red = getRandomColor();
                 let green = getRandomColor();
-                let blue = getRandomColor(); 
+                let blue = getRandomColor();
                 box.style.backgroundColor = `rgb(${red.toString()}, ${green.toString()}, ${blue.toString()})`;
             })
             button.addEventListener('click', () => {
@@ -37,6 +37,5 @@ function getRandomColor() {
     let randomColor = Math.floor(Math.random() * 256);
     return randomColor;
 }
-
 
 button.addEventListener('click', getUserInput);
